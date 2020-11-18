@@ -123,32 +123,43 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
-# Required /e/ packages
+# Required /e/ FogFon microG packages
 PRODUCT_PACKAGES += \
-    eSpeakTTS \
-    GmsCore \
-    GsfProxy \
-    FakeStore \
-    com.google.android.maps.jar \
-    Mail \
+    AccountManager \
+    additional_repos.xml \
+    AFWall \
+    Apps \
     BlissLauncher \
     BlissIconPack \
-    MozillaNlpBackend \
-    OpenWeatherMapWeatherProvider \
-    AccountManager \
     Camera \
-    eDrive \
-    Notes \
-    Tasks \
-    NominatimNlpBackend \
+    Conversations \
+    CryptFs \
+    CWA \
+    Duckduckgo \
     DroidGuard \
-    OpenKeychain \
-    Message \
-    Browser \
-    BrowserWebView \
-    Apps \
+    eDrive \
     ESmsSync \
-    PwaPlayer
+    eSpeakTTS \
+    Etar \
+    FakeStore \
+    FDroid \
+    FDroidPrivilegedExtension \
+    GsfProxy \
+    GmsCore \
+    com.google.android.maps \
+    Mail \
+    Message \
+    MozillaNlpBackend \
+    NominatimNlpBackend \
+    Notes \
+    OfflineCalendar \
+    OpenKeychain \
+    OsmAnd \
+    Orbot \
+    ScrambledExif \
+    SleepyKitty \
+    Tasks \
+    Wifi-Automatic
 
 ifeq ($(INCLUDE_BACKUP_APP),true)
 PRODUCT_PACKAGES += SeedVault
